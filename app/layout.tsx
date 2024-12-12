@@ -1,14 +1,11 @@
-import { Shippori_Mincho } from 'next/font/google'
-import './globals.css'
+import '../styles/globals.css'
+import { Inter } from 'next/font/google'
 
-const shipporiMincho = Shippori_Mincho({ 
-  subsets: ['latin'],
-  weight: ['400', '700'] // 400 (regular) と 700 (bold) のウェイトを追加
-})
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: '今日の運勢',
-  description: 'エレガントなおみくじアプリ',
+  title: 'Poker Memory Test',
+  description: 'A tool to test your poker memory skills',
 }
 
 export default function RootLayout({
@@ -17,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ja">
-      <body className={shipporiMincho.className}>{children}</body>
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
