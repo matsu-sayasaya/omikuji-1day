@@ -1,0 +1,1 @@
+# omikuji-1day
