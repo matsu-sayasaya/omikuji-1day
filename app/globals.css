@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.bg-marble {
+  background-image: url('/marble-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-stroke-2 {
+  -webkit-text-stroke: 2px;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke-color: white;
+}
+
