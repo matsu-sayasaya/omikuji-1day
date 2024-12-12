@@ -128,7 +128,7 @@ export default function OmikujiClient() {
             今日のあなたへ
           </span>
           <span className="absolute inset-0 z-0 text-yellow-600 blur-[2px]">
-            今日のあなたへ
+            ���日のあなたへ
           </span>
         </h1>
         {fortune && advice ? (
